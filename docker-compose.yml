@@ -1,6 +1,6 @@
 services:
   homeassistant:
-    container_name: homeassistant
+    container_name: homeassistant_stack
     image: "ghcr.io/home-assistant/home-assistant:stable"
     volumes:
       - /home/mihai/HASS/config:/config
